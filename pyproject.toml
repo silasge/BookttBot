@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "booktt"
+version = "0.1.0"
+description = ""
+authors = ["Silas Genário <silasge.lopes@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tweepy = "^3.10.0"
+
+[tool.poetry.scripts]
+booktt = "booktt.booktt:main"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
